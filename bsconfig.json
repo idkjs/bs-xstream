@@ -1,0 +1,36 @@
+{
+  "name": "@j3a/bs-xstream",
+  "version": "0.7.3",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "examples",
+      "subdirs": true,
+      "type": "dev"
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": false
+    },
+    {
+      "module": "es6",
+      "in-source": false
+    }
+  ],
+  "suffix": ".bs.js",
+  "bs-dependencies": [],
+  "dev-dependencies": {
+    "bs-platform": "^4.0.14",
+    "xstream": "^11.7.0"
+  },
+  "warnings": {
+    "error": "+101"
+  },
+  "namespace": false,
+  "refmt": 3
+}
