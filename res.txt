@@ -1,6 +1,0 @@
-node_modules/.bin/bsc -format examples/demo.re > examples/demo.res
-node_modules/.bin/bsc -format examples/operators.re > examples/operators.res
-node_modules/.bin/bsc -format examples/usage.re >examples/usage.res
-node_modules/.bin/bsc -format src/Xstream.re > src/Xstream.res
-node_modules/.bin/bsc -format src/xstream_memory.re > src/xstream_memory.res
-node_modules/.bin/bsc -format src/xstream_stream.re > src/xstream_stream.res
